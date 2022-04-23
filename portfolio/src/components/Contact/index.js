@@ -1,9 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Contact extends Component {
-    render() {
-
-    
+const Contact = () => {
     return(
         <section id="contact">
             <div className="row section-head">
@@ -11,7 +8,7 @@ class Contact extends Component {
                     <h1><span>Get In Touch</span></h1>
                 </div>
                 <div className="ten columns">
-                    <p className="lead">{message}</p>
+                    <p className="lead">Want to Collab?!</p>
                 </div>
             </div>
 
@@ -49,7 +46,6 @@ class Contact extends Component {
             </div>
         </section>
     );
-    }
-}
+};
 
 export default Contact;

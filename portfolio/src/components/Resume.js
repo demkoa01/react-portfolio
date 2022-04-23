@@ -1,9 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Resume extends Component {
-    render() {
-
-
+const Resume = () => {
     return(
         <section id="resume">
 
@@ -48,7 +45,7 @@ class Resume extends Component {
                     <h1><span>Technical Skills</span></h1>
                 </div>
                 <div className="nine columns main-col">
-                    <p>{skillmessage}</p>
+                    <p>Technical Skills</p>
                     <div className="bars">
                         <ul className="skills">
                             <li className="skill">Adobe Creative Suite</li>
@@ -70,7 +67,6 @@ class Resume extends Component {
 
         </section>
     ); 
-    }
-}
+};
 
 export default Resume;

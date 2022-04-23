@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+// import profilepic from '../../assets/profilepic';
+// import resumeDownload from '../../assets/DemkovichResume_April2022';
 
-class About extends Component {
-    render() {
-
+const About = () => {
     return(
         <section id='about'>
 
             <div className='row'>
                 <div className='three columns'>
-                    <img className='profile-pic' src={profilepic} alt="Image of developer."/>
+                    <img style={{ height: '250px' }} className='profile-pic' src="C:\Users\amd01\Documents\projects\homework-20\react-portfolio\portfolio\src\assets" alt="Image of developer, Allison with her dog."/>
                 </div>
                 <div className='nine columns main-col'>
                     <h2>About Me</h2>
@@ -29,7 +29,7 @@ class About extends Component {
                         </div>
                         <div className='columns download'>
                             <p>
-                                <a href={resumeDownload} className='button' target="_blank"><i className='fa fa-download'></i>Download Resume</a>
+                                <a href="C:\Users\amd01\Documents\projects\homework-20\react-portfolio\portfolio\src\assets" className='button' target="_blank"><i className='fa fa-download'></i>Download Resume</a>
                             </p>
                         </div>
                     </div>
@@ -38,7 +38,6 @@ class About extends Component {
 
         </section>
     );
-    }
-}
+};
 
 export default About;
